@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    top : 0px;
+    left : 0px;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+}
+
+nav{
+    height: 60px;
+    background-color: rgb(42, 165, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, nav li:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav li {
+    display: inline-flex; /* block안하면 width가 안먹힘 */
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    /* background-color: aliceblue; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    background-color:aliceblue;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+}
+
+/* #a1 {
+    height: 50vh; /*vh는 열려져있는 창 퍼센트*/
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;  /*가로축*/
+    /* align-items: center;   /*세로축*/ 
+/*} */
+
+/* #a1 > div {
+    border: 2px double rgba(18, 0, 61, 0.527);
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+} */
+
+
+#a1 img {
+    width: 250px;
+    border-radius: 50px;
+}
+
+ul {
+    margin: 20px;
+}
+
+#a2, #a4 {
+    background-color:lavender;
+}
+
+.c3 {
+    background-color: rgb(187, 255, 232);
+}
+
+.c3 > h1 {
+    background-color: rgb(84, 255, 204);
+    color: rgb(0, 71, 12);
+}
+/* .c3 > ul > li{ */
+.c3  li {
+    color: rgb(19, 18, 65);
+}
