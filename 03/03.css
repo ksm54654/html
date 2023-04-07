@@ -1,7 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Gowun Batang', serif;
 }
+
 
 header{
     top : 0px;
@@ -15,8 +17,8 @@ nav{
     height: 60px;
     background-color: rgb(42, 165, 144);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 
 nav a {
@@ -79,6 +81,7 @@ article {
 
 ul {
     margin: 20px;
+    padding: 20px;
 }
 
 #a2, #a4 {

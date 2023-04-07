@@ -1,0 +1,15 @@
+.c1{
+    display: flex; 
+}
+
+.c1 > div {
+    
+    width: 30%;
+}
+.c1 > p {
+    width: 60%;
+}
+
+img {
+    border-radius: 25px;
+}
